@@ -1,0 +1,1000 @@
+   63  cd ..
+   64  cd 02
+   65  ls
+   66  cd masteringansible
+   67  cd ..
+   68  cd masteringansible
+   69  02\ -\ Ansible\ Architecture\ and\ Design/04\ -\ Ansible\ Playbooks\,\ Breakdown\ of\ sections/01
+   70  clear
+   71  02\ -\ Ansible\ Architecture\ and\ Design/04\ -\ Ansible\ Playbooks\,\ Breakdown\ of\ sections/01
+   72  cd 02\ -\ Ansible\ Architecture\ and\ Design/04\ -\ Ansible\ Playbooks\,\ Breakdown\ of\ sections/01
+   73  vi motd_playbook.yml
+   74  clear
+   75  cd ../02/
+   76  ls
+   77  cat ansible.cfg 
+   78  clear
+   79  ls
+   80  cd ..
+   81  ls
+   82  cd 02
+   83  ls
+   84  clear
+   85  cd ..
+   86  cd 02
+   87  ls
+   88  cat ansible.cfg 
+   89  mod an
+   90  mod ansible.cfg 
+   91  clear
+   92  ls
+   93  ansible-playbook motd_playbook.yml
+   94  vi motd_playbook.yml
+   95  ls
+   96  vi hosts
+   97  ansible-playbook motd_playbook.yml
+   98  ls
+   99  cd hosts
+  100  vi hosts
+  101  ansible-playbook motd_playbook.yml
+  102  vi hosts
+  103  ssh root@centos-2
+  104  logout
+  105  ls
+  106  cd masteringansible
+  107  cd 02\ -\ Ansible\ Architecture\ and\ Design/04\ -\ Ansible\ Playbooks\,\ Breakdown\ of\ sections/
+  108  ls
+  109  cd o2
+  110  cd 02
+  111  ls
+  112  cat motd_playbook.retry 
+  113  rm motd_playbook.retry 
+  114  ansible-playbook motd_playbook.yml 
+  115  cd /03/
+  116  cd ../03/
+  117  ls
+  118  clear
+  119  las
+  120  ls
+  121  cat motd_playbook.yml
+  122  ls
+  123  cd hosts
+  124  cat hosts
+  125  vi hosts
+  126  clear
+  127  ls
+  128  ansible-playbook motd_playbook.yml 
+  129  vi hosts
+  130  clear
+  131  cd ../04/
+  132  ls
+  133  cat motd_playbook.yml 
+  134  ansible-playbook motd_playbook.yml 
+  135  clear
+  136  ls
+  137  vi hosts
+  138  ansible-playbook motd_playbook.yml 
+  139  clear
+  140  ansible-playbook motd_playbook.yml 
+  141  vi hosts
+  142  ansible-playbook motd_playbook.yml 
+  143  cd ../06/
+  144  ls
+  145  cat motd_playbook.yml 
+  146  ls
+  147  ansible-playbook motd_playbook.yml 
+  148  vi motd_playbook.yml 
+  149  ansible-playbook motd_playbook.yml 
+  150  vi motd_playbook.yml 
+  151  clear
+  152  ansible-playbook motd_playbook.yml 
+  153  vi host
+  154  ls
+  155  vi hosts
+  156  ansible-playbook motd_playbook.yml 
+  157  vi hosts
+  158  clear
+  159  ls
+  160  vi hosts
+  161  clear
+  162  ls
+  163  ansible-playbook motd_playbook.yml 
+  164  cd ../07/
+  165  ls
+  166  cat hosts
+  167  cat motd_playbook.yml 
+  168  ls
+  169  ansible-playbook motd_playbook.yml 
+  170  cat hosts
+  171  vi hosts
+  172  ansible-playbook motd_playbook.yml 
+  173  cat motd_playbook.yml 
+  174  ansible-playbook motd_playbook.yml 
+  175  clear
+  176  vi hosts
+  177  clear
+  178  ls
+  179  vi /etc/hosts
+  180  clear
+  181  vi /etc/hosts
+  182  ssh-copy-id -i /root/.ssh/id_rsa.pub ubuntu
+  183  ls
+  184  vi hosts
+  185  ansible ubuntu1
+  186  ansible ubuntu1 -m ping
+  187  vi hosts
+  188  ansible ubuntu1 -m ping
+  189  ls
+  190  ansible-playbook motd_playbook.yml 
+  191  vi /etc/hosts
+  192  clear
+  193  cd ../01/
+  194  ls
+  195  vi facts_playbook.yml
+  196  cd /02/
+  197  cd 02
+  198  ls
+  199  cd..
+  200  clear
+  201  cd ../02/
+  202  cls
+  203  clear
+  204  ls
+  205  exi
+  206  exit
+  207  history
+  208  : host :
+  209  history : grep host
+  210  ansbile all -m ping
+  211  ansible all -m ping
+  212  setup
+  213  ansible centos-1 -m setup
+  214  ipconfig
+  215  ifconfig
+  216  host
+  217  cd masteringansible
+  218  ls
+  219  cd 02
+  220  cd 02\ -\ Ansible\ Architecture\ and\ Design/
+  221  ls
+  222  cd 06\ -\ Ansible\ Playbooks\,\ Facts/lst
+  223  cd ../06/
+  224  clear
+  225  ls
+  226  cd 06\ -\ Ansible\ Playbooks\,\ Facts/
+  227  cd ../05/
+  228  cd../05/
+  229  clear
+  230  cd ../05/
+  231  list
+  232  ls
+  233  cd 01
+  234  ls
+  235  cat facts_playbook.yml 
+  236  vi hosts
+  237  clear
+  238  ls
+  239  vi facts_playbook.yml 
+  240  ansible-playbook facts_playbook.yml 
+  241  clear
+  242  ls
+  243  vi hosts
+  244  ansible-playboo facts_playbook.yml 
+  245  ansible-playbook facts_playbook.yml 
+  246  vi hosts
+  247  ansible-playbook facts_playbook.yml 
+  248  ls
+  249  vi facts_playbook.yml 
+  250  ansible-playbook facts_playbook.yml 
+  251  vi hosts
+  252  clear
+  253  ansible centos-1 -m ping
+  254  clear
+  255  ansible centos-1 -m ping
+  256  vi hosts
+  257  cat host
+  258  cat hosts
+  259  clear
+  260  ansible-playbook facts_playbook.yml 
+  261  clear
+  262  cd ../02/
+  263  ls
+  264  ansible-playbook facts_playbook.yml 
+  265  clear
+  266  cd templates
+  267  ls
+  268  cat getdate1.fact 
+  269  ls /etc/ansible/
+  270  cd..
+  271  cd../05/
+  272  cd..
+  273  ls
+  274  cd..
+  275  cd../
+  276  clear
+  277  cd ..
+  278  cd ../05/
+  279  cd ../01/
+  280  cd ../02/
+  281  ls
+  282  cd ..
+  283  ls
+  284  cd ..
+  285  cd..
+  286  cd ..
+  287  ls
+  288  cd 02\ -\ Ansible\ Architecture\ and\ Design/
+  289  ls
+  290  cd 07\ -\ Templating\ with\ Jinja2/
+  291  ls
+  292  cd 01
+  293  ls
+  294  vi jinja2_playbook.yml 
+  295  vi hosts
+  296  ansible-playbook jinja2_playbook.yml 
+  297  clear
+  298  vi hosts
+  299  ansible-playbook jinja2_playbook.yml 
+  300  cat hosts
+  301  pwd
+  302  more /etc/hosts
+  303  ansible all -m ping
+  304  ansible centos-1 -m ping
+  305  more /etc/hosts
+  306  reboot
+  307  clear
+  308  cd /etc/
+  309  ls
+  310  cd hosts
+  311  clear
+  312  cd /hosts
+  313  cd hosts
+  314  cd host
+  315  cd ansible
+  316  ls
+  317  cd hosts
+  318  cd /hosts
+  319  more hosts
+  320  clear
+  321  cd hosts
+  322  cat hosts
+  323  clear
+  324  cls
+  325  clear
+  326  ssh centos1@192.168.23.129
+  327  cd /etc/hosts
+  328  cd //etc/
+  329  ls
+  330  cd hosts
+  331  clear
+  332  cd /etc/config
+  333  cd /etc
+  334  ls
+  335  clear
+  336  cd hlsts
+  337  cd hosts
+  338  vi /etc/ssh/
+  339  vi /etc/ssh/sshd_config
+  340  ssh centos1@192.168.23.129
+  341  ssh root@centos1
+  342  ls
+  343  cd masteringansible
+  344  ls
+  345  cd 02\ -\ Ansible\ Architecture\ and\ Design/07\ -\ Templating\ with\ Jinja2/
+  346  ls
+  347  cd 11
+  348  ls
+  349  cat host
+  350  cat hosts
+  351  ansible centos-1 -m ping
+  352  ping centos-1
+  353  rpm -qa | grep -i python
+  354  ansible centos-1 -m ping
+  355  ls
+  356  vi ansibl.cfg
+  357  vi ansible.cfg 
+  358  vi hosts
+  359  ansible centos-1 -m ping
+  360  vi hosts
+  361  ansible centos-1 -m ping
+  362  vi hosts
+  363  ansible all -m ping
+  364  ansible centos -m ping
+  365  vi hosts
+  366  cd 01
+  367  cd /01
+  368  cd /01/
+  369  ls
+  370  cd ..
+  371  clear
+  372  ls
+  373  cd 08
+  374  ls
+  375  cd ..
+  376  ls
+  377  cd 08\ -\ Ansible\ Playbooks\,\ Creating\ and\ Executing/
+  378  ls
+  379  cd 01
+  380  ls
+  381  vi hosts
+  382  clear
+  383  ls
+  384  ansible centos -m ping
+  385  clear
+  386  ansible ubuntu -m ping
+  387  ansible ubuntu1 -m ping
+  388  vi hosts
+  389  ansible ubuntu1 -m ping
+  390  vi hosts
+  391  clear
+  392  ls
+  393  ansible-playbook nginx_playbook.yml 
+  394  vi hosts
+  395  clear
+  396  ls
+  397  cat nginx_playbook.yml 
+  398  ls
+  399  cd ../02/
+  400  ls
+  401  clear
+  402  ls
+  403  cat nginx_playbook.yml 
+  404  ansible-playbook nginx_playbook.yml 
+  405  vi hosts
+  406  ansible-playbook nginx_playbook.yml 
+  407  vi hosts
+  408  ansible-playbook nginx_playbook.yml 
+  409  clear
+  410  vi hosts
+  411  clear
+  412  ls
+  413  ansible-playbook nginx_playbook.yml 
+  414  vi hosts
+  415  show hosts
+  416  clear
+  417  vi hosts
+  418  ansible-playbook nginx_playbook.yml 
+  419  ls
+  420  cat nginx_playbook.yml 
+  421  clear
+  422  cat hosts
+  423  vi hosts
+  424  cat nginx_playbook.yml 
+  425  ansible-playbook nginx_playbook.yml 
+  426  clear
+  427  cat hosts
+  428  vi hosts
+  429  ansible-playbook nginx_playbook.yml 
+  430  more /etc/hosts/
+  431  more /etc/hosts//
+  432  cat /etc/hosts/
+  433  clear
+  434  cd..
+  435  cd ..
+  436  more /etc/hosts
+  437  ls
+  438  cd masteringansible/
+  439  cd 02\ -\ Ansible\ Architecture\ and\ Design/
+  440  cd 08\ -\ Ansible\ Playbooks\,\ Creating\ and\ Executing/
+  441  ls
+  442  04
+  443  cd 0
+  444  cd 04
+  445  vi hosts
+  446  clear
+  447  ls
+  448  cat nginx_playbook.yml 
+  449  clear
+  450  ls
+  451  cat ngnix-default.conf
+  452  cd ..
+  453  ls
+  454  cd 04
+  455  ls
+  456  cd files
+  457  ls
+  458  cat nginx-default.conf
+  459  cd ../04/
+  460  cd ..
+  461  clear
+  462  ls
+  463  ansible-playbook.y
+  464  ansible-playbook.yml
+  465  ansible-playbook nginx_playbook.yml 
+  466  cd ../06/
+  467  vi hosts
+  468  clear
+  469  ls
+  470  ansible-playbook nginx_playbook.yml 
+  471  vi hosts
+  472  ansible-playbook nginx_playbook.yml 
+  473  vi hosts
+  474  ansible-playbook nginx_playbook.yml 
+  475  clear
+  476  cd ../05/
+  477  cat hosts
+  478  ls
+  479  cd ../02/
+  480  cp -p hosts ../08/
+  481  cat hosts
+  482  vi hosts
+  483  cp -p hosts ../08/
+  484  clear
+  485  ls
+  486  cd ..
+  487  ls
+  488  cd 10
+  489  cat hosts
+  490  cat ../01/hosts
+  491  cat ../02/hosts
+  492  cp -p hosts ../01/
+  493  clear
+  494  cat ../01/
+  495  cat ../10/hosts
+  496  cat ../01/hosts
+  497  cd ../01/
+  498  clear
+  499  ls
+  500  ansible-playbook nginx_playbook.yml 
+  501  clear
+  502  cat hosts
+  503  cd ../08/
+  504  ls
+  505  ansible-playbook nginx_playbook.yml 
+  506  cat hosts
+  507  clear
+  508  ls
+  509  ansible-playbook nginx_playbook.yml 
+  510  cd ../05/
+  511  clear
+  512  cat hosts
+  513  clear
+  514  ls
+  515  cd ../01/
+  516  ls
+  517  cd ../05/
+  518  ls
+  519  cd ../06/
+  520  ls
+  521  cd..
+  522  cd ..
+  523  cd 03\ -\ Ansible\ Playbooks\,\ Advanced\ Topics/
+  524  ls
+  525  cd 01\ -\ Ansible\ Playbook\ Modules/
+  526  clear
+  527  ls
+  528  cd 07
+  529  ls
+  530  cat assemble_playbook.yml 
+  531  ansible-playbook assemble_playbook.yml 
+  532  cat hosts
+  533  clear
+  534  ls
+  535  clear
+  536  cd ../06/
+  537  cat hosts
+  538  clear
+  539  ls
+  540  cat wait_for_playbook.yml 
+  541  vi wait_for_playbook.yml 
+  542  ansible-playbook wait_for_playbook.yml 
+  543  vi wait_for_playbook.yml 
+  544  ansible-playbook wait_for_playbook.yml 
+  545  vi hosts
+  546  clear
+  547  cd ../08/
+  548  ls
+  549  cd ../06/
+  550  ls
+  551  cat wait_for_playbook.yml 
+  552  cd ..
+  553  ls
+  554  cd 03\ -\ Ansible\ Playbooks\,\ Advanced\ Topics/02\ -\ Dynamic\ Inventories/01
+  555  ls
+  556  cat ansible.cfg
+  557  clear
+  558  ls
+  559  cat inventory.py
+  560  clear
+  561  ls
+  562  cd ..
+  563  ls
+  564  cd 04/
+  565  ls
+  566  cat inventory.py
+  567  ls
+  568  clear
+  569  root123
+  570  clear
+  571  pwd
+  572  cd ../03/
+  573  pwd
+  574  cd ..
+  575  ls
+  576  cd..
+  577  cd ..
+  578  03\ -\ register\ and\ when/ls
+  579  cd 03\ -\ register\ and\ when/
+  580  ls
+  581  pwd
+  582  cd 01
+  583  ls
+  584  clear
+  585  ls
+  586  cat register_playbook.yml 
+  587  vi hosts
+  588  clear
+  589  ls
+  590  ansible-playbook register_playbook.yml 
+  591  vi hosts
+  592  vi /etc/hosts/
+  593  vi /etc/hosts
+  594  ansible-playbook register_playbook.yml 
+  595  vi hosts
+  596  ansible-playbook register_playbook.yml 
+  597  vi /etc/host
+  598  vi /etc/hosts
+  599  vi hosts
+  600  ansible-playbook register_playbook.yml 
+  601  clear
+  602  ansible-playbook register_playbook.yml 
+  603  clear
+  604  vi hosts
+  605  clear
+  606  vi hosts
+  607  ansible-playbook register_playbook.yml 
+  608  clear
+  609  cd ../04/
+  610  clear
+  611  ls
+  612  vi hosts
+  613  vi /etc/hosts
+  614  clear
+  615  cd /etc/hosts
+  616  ls
+  617  vi /etc/hosts
+  618  clear
+  619  vi /etc/hosts
+  620  cd ../root
+  621  cd ../
+  622  cd /etc/hosts
+  623  rm /etc/hosts.swp
+  624  cat /etc/hosts
+  625  clear
+  626  ls
+  627  cd masteringansible/
+  628  cd 03\ -\ Ansible\ Playbooks\,\ Advanced\ Topics/
+  629  ls
+  630  cd03
+  631  cd 03
+  632  cd 03\ -\ register\ and\ when/
+  633  clear
+  634  ls
+  635  cd 05
+  636  ls
+  637  vi hosts
+  638  cat register_playbook.yml 
+  639  ansible-playbook register_playbook.yml 
+  640  clear
+  641  ls
+  642  ansible-playbook register_playbook.yml 
+  643  clear
+  644  cd ../02/
+  645  ls
+  646  cd ..
+  647  pwd
+  648  clear
+  649  cd 02
+  650  ansible-playbook register_playbook.yml 
+  651  clear
+  652  cd ../03/
+  653  cd ../02/
+  654  ls
+  655  cat register_playbook.yml 
+  656  clear
+  657  ls
+  658  pwd
+  659  ls
+  660  cat register_playbook.retry 
+  661  clear
+  662  ls
+  663  more register_playbook.yml 
+  664  cp register_playbook1.yml 
+  665  cd /
+  666  ls
+  667  makdir content
+  668  mkdir ontent
+  669  ls
+  670  mkdir content
+  671  ls
+  672  clear
+  673  ls
+  674  rm ontent
+  675  clear
+  676  ls
+  677  clear
+  678  ls
+  679  cd home
+  680  ls
+  681  cd ..
+  682  ls
+  683  cd masteringansible
+  684  cd sbin
+  685  ls
+  686  cd masteringansible
+  687  cd ..
+  688  cd ../
+  689  clear
+  690  ls
+  691  pwd
+  692  cd /home/
+  693  ls
+  694  git clone https://github.com/spurin/masteringnansible.git
+  695  git clone https://github.com/spuring/masteringnansible.git
+  696  ls
+  697  rm masteringansible
+  698  rm -rf masteringnansible/
+  699  ls
+  700  https://github.com/spurin/masteringansible
+  701  ls
+  702  git clone https://github.com/spurin/masteringansible
+  703  clear
+  704  cd /
+  705  ls
+  706  cd home
+  707  ls
+  708  cd masteringansible/
+  709  ls
+  710  cd 03\ -\ Ansible\ Playbooks\,\ Advanced\ Topics/03\ -\ register\ and\ when/08
+  711  ls
+  712  cat hosts
+  713  clar
+  714  clear
+  715  cls
+  716  clear
+  717  ls
+  718  cd ../05
+  719  ls
+  720  ansible-playbook register_playbook.yml 
+  721  clear
+  722  cat /etc/hosts
+  723  ls
+  724  playbook-ansible register_playbook.yml 
+  725  clear
+  726  cd /
+  727  yum ansible
+  728  yum install ansible
+  729  ls
+  730  cd home/masteringansible/03\ -\ Ansible\ Playbooks\,\ Advanced\ Topics/03\ -\ register\ and\ when/
+  731  ls
+  732  cd 03
+  733  ls
+  734  ansible-playbook register_playbook.yml 
+  735  cd ../01
+  736  ls
+  737  pwd
+  738  clear
+  739  ls
+  740  ---
+  741  clear
+  742  cat >test.yml
+  743  -l test.yml
+  744  ls
+  745  cat test.yml
+  746  vi test.yml
+  747  cat test.yml
+  748  ansible-playbook test.yml 
+  749  vi test.yml
+  750  ansible-playbook test.yml 
+  751  vi test.yml 
+  752  ansible-playbook test.yml 
+  753  vi test.yml 
+  754  clar
+  755  clear
+  756  cat test1.yml
+  757  cat >test1.yml
+  758  ls
+  759  rm -rf test1.yml
+  760  ls
+  761  cat >test1.yml
+  762  vi test.yml
+  763  cd ../../03
+  764  cd ../../08
+  765  cd ..
+  766  cd 08\ -\ Blocks/
+  767  cd 03
+  768  clear
+  769  pwd
+  770  clear
+  771  ls
+  772  cat blocks_playbook.yml 
+  773  cd ../09/
+  774  pwd
+  775  cd..
+  776  pwd
+  777  cd ..
+  778  ls
+  779  cd ../09/
+  780  cd ../
+  781  ls
+  782  cd 09\ -\ Ansible\ Vault/
+  783  clear
+  784  ls
+  785  cd 01/
+  786  ls
+  787  cat group_Vars
+  788  more group_vars
+  789  cd group_vars/
+  790  ls
+  791  cd ../host_vars
+  792  ls
+  793  cat centos1
+  794  ssh centos1
+  795  clear
+  796  pwd
+  797  cd../01/
+  798  ls
+  799  ssh-keygen -t rsa
+  800  ssh centos@192.168.23.129 mkdir -p .ssh
+  801  ssh centos@192.168.23.129
+  802  clear
+  803  ssh-keygen -t rsa
+  804  ssh@ubuntu1
+  805  ssh root@ubuntu1
+  806  ansible all -m ping
+  807  clear
+  808  vi /etc/hosts
+  809  clears
+  810  clear
+  811  ssh root@ubuntu2
+  812  clear
+  813  pwd
+  814  cd ../10/
+  815  git clone https://github.com/ansible/ansible.git
+  816  ansible centos1 -m ping
+  817  ping centos1
+  818  ansible centos1 -m ping
+  819  clear
+  820  ansible ubuntu1 -m ping
+  821  cd /etc/hosts
+  822  cd /etc/host
+  823  cd /etc/
+  824  ls
+  825  clear
+  826  cd /etc/ansible/
+  827  ls
+  828  ls hosts
+  829  ls
+  830  cat ansible.cfg
+  831  clear
+  832  ls
+  833  cat hosts
+  834  clear
+  835  cd ..
+  836  ansible root@centos1 -m ping
+  837  ansible all -m ping
+  838  clear
+  839  ls
+  840  cd masteringansible
+  841  clear
+  842  cd home
+  843  cd /
+  844  cd home
+  845  cd ansiblemastering
+  846  cd masteringansible
+  847  ls
+  848  03\ -\ Ansible\ Playbooks\,\ Advanced\ Topics/03\ -\ register\ and\ when/02/
+  849  ls
+  850  cd 03\ -\ Ansible\ Playbooks\,\ Advanced\ Topics/03\ -\ register\ and\ when/02
+  851  ls
+  852  clear
+  853  ls
+  854  ansible-playbook register_playbook.yml 
+  855  vi hosts
+  856  clear
+  857  ansible centos1 -m ping
+  858  ssh centos1
+  859  ssh root@centos1
+  860  clear
+  861  hostname
+  862  ansible centos1 -m ping
+  863  cat /etc/hosts
+  864  ssh root@centos1
+  865  pwd
+  866  clear
+  867  pwd
+  868  cd ../10/
+  869  clear
+  870  ls
+  871  cd ..
+  872  ls
+  873  cd 01
+  874  source ansible/hacking/env-setup
+  875  cd ../10
+  876  source ansible/hacking/env-setup
+  877  find / -name env-setup
+  878  find / -name env_setup
+  879  find / -name env
+  880  ls
+  881  cd ../03/
+  882  cd ../09/
+  883  pwd
+  884  ls
+  885  cd ../09
+  886  pwd
+  887  ls
+  888  cd ../09
+  889  pwd
+  890  ls
+  891  clear
+  892  pwd
+  893  cd..
+  894  cd ..
+  895  ls
+  896  cd 09\ -\ Ansible\ Vault/
+  897  ls
+  898  cd 01
+  899  ls
+  900  cd hosts
+  901  ls
+  902  find / -name env
+  903  cd host_vars/
+  904  ls
+  905  cd ansible/
+  906  source ansible/hacking/env-setup
+  907  ls
+  908  source ansible/hacking/env_setup
+  909  cd hacking
+  910  ls
+  911  env_setup
+  912  clear
+  913  ls
+  914  env-setup
+  915  clear
+  916  cd ..
+  917  pwd
+  918  cd..
+  919  ls
+  920  cd ..
+  921  ls
+  922  cd ..
+  923  cd ../04\ -\ Structuring\ Ansible\ Playbooks/01\ -\ Using\ Include\ and\ Import/
+  924  clear
+  925  cd home
+  926  ls
+  927  cd masteringansible
+  928  ls
+  929  mkdir test
+  930  cd test
+  931  touch myplay.yml
+  932  ls
+  933  vi myplay.yml 
+  934  pwd
+  935  cd ..
+  936  cd 04\ -\ Structuring\ Ansible\ Playbooks/03\ -\ Using\ Roles/
+  937  ls
+  938  cd 01
+  939  ls
+  940  celar
+  941  ls
+  942  clear
+  943  ls
+  944  cd ..
+  945  cd /
+  946  cd ..
+  947  clear
+  948  yum install tree
+  949  ls
+  950  cd home/masteringansible/04\ -\ Structuring\ Ansible\ Playbooks/03\ -\ Using\ Roles/
+  951  ls
+  952  clear
+  953  cd 01
+  954  ls
+  955  cat ansible.cfg 
+  956  cat gree
+  957  cat tree
+  958  cd ..
+  959  ls
+  960  cd 01
+  961  tree
+  962  free
+  963  du
+  964  clear
+  965  cd ../02/
+  966  tree
+  967  clear
+  968  tree
+  969  clear
+  970  ansible-galaxy init /etc/ansible/roles/apache --offline
+  971  tree /etc/ansible/roles/apache/
+  972  cd /etc/ansible/roles/apache/
+  973  ls
+  974  cd tasks/
+  975  ls
+  976  cat main.yml 
+  977  vi main.yml 
+  978  ls
+  979  cd /
+  980  cd /etc/ansible/roles/apache/tasks/
+  981  ls
+  982  vi main.yml 
+  983  clear
+  984  ansible-galaxy init /etc/ansible/roles/apache --offline
+  985  clear
+  986  yum install winscp
+  987  clear
+  988   https://releases.ansible.com/ansible.tower/setup/ansible.tower-setup-latest.tar.gz
+  989  winscp
+  990  firewalld
+  991  systemctl disable firewalld
+  992  systemctl stop firewalld
+  993  vi /etc/sclinux/config
+  994  vi /etc/selinux/
+  995  vi /etc/selinux/config 
+  996  restart
+  997  reboot
+  998  yum install epel-release
+  999  yum update ansible
+ 1000  vi inventory
+ 1001  pwd
+ 1002  cd ..
+ 1003  cd ../
+ 1004  cd home
+ 1005  ls
+ 1006  uzip ansible-tower-setup-2.4.4.tar.gz 
+ 1007  gunzip ansible-tower-setup-2.4.4.tar.gz 
+ 1008  ls
+ 1009  tar -xvf ansible-tower-setup-2.4.4.tar 
+ 1010  ls
+ 1011  cd ansible-tower-setup-2.4.4/
+ 1012  ls
+ 1013  vi inventory
+ 1014  cd \home
+ 1015  ls
+ 1016  cd /home
+ 1017  ls
+ 1018  gunzip ansible-tower-setup-3.4.3-1.tar.gz 
+ 1019  tar -xvf ansible-tower-setup-3.4.3-1.tar 
+ 1020  cd ansible-tower-setup-3.4.3-1/
+ 1021  ls
+ 1022  vi inventory
+ 1023  ./setup.sh
+ 1024  ifconfig
+ 1025  ifconfig -a
+ 1026  clear
+ 1027  cd \home
+ 1028  cd /
+ 1029  cd hom
+ 1030  cd home
+ 1031  clear
+ 1032  git clone https://github.com/PacktPublishing/Mastering-Ansible.git
+ 1033  ls
+ 1034  cd masteringansible/04\ -\ Structuring\ Ansible\ Playbooks/02\ -\ Using\ Tags/03/
+ 1035  git config --list
+ 1036  ls -la
+ 1037  git init
+ 1038  git status
+ 1039  git add .
+ 1040  git commit -m "my first playbook"
+ 1041  git add.
+ 1042  git add .
+ 1043  git init
+ 1044  git add .
+ 1045  git commit -m "my first playbook"
+ 1046  git config --global user.email "you@example.com"
+ 1047   git config --global user.name "Your Name"
+ 1048  git log
+ 1049  git hellogs
+ 1050  git log
+ 1051    git config --global user.email "you@example.com"
+ 1052    git config --global user.name "Your Name"
+ 1053  git add .
+ 1054  git commit -m "test"
+ 1055  git log
+ 1056  git remote add origin https://github.com/prabhakaranc/test.git
+ 1057  git push -u origin master
+ 1058  ls -la
+ 1059  rm -rf .git
+ 1060  ls
+ 1061  git init
+ 1062  history >commands.txt
